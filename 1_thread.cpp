@@ -2,6 +2,7 @@
 #include <thread>
 using namespace std;
 
+//initial function for threads
 void call_from(int tid){
 	cout<<"call from thread "<<tid<<"\n";
 }
